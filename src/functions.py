@@ -17,7 +17,7 @@ def match_descriptions(df1, df2):
     df2['Código Alternativa'] = ''
 
     for i, desc2 in df2.iterrows():
-        max_score = 0.78
+        max_score = 0.70
         best_match = None
 
         # Comparar descripciones para encontrar el mejor match
